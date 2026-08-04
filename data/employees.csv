@@ -1,0 +1,21 @@
+employee_id,full_name,role,field_id,hire_date
+1,Fatou Benali,Ingénieur de production,1,2017-12-15
+2,Lucie Cissé,Chef de site,5,2020-11-16
+3,Amina Diallo,Géologue,2,2014-12-08
+4,Moussa Cissé,Ingénieur de production,5,2018-09-23
+5,Julie Diallo,Ingénieur de production,5,2022-04-03
+6,Amina Kadi,Opérateur de plateforme,1,2019-02-03
+7,Karim N'Diaye,Superviseur de champ,5,2013-08-17
+8,Lucie Lefevre,Opérateur de plateforme,1,2012-03-17
+9,Fatou N'Diaye,Opérateur de plateforme,4,2022-04-12
+10,Hassan Diallo,Technicien de maintenance,6,2014-03-30
+11,Karim N'Diaye,Ingénieur de production,5,2013-08-23
+12,Jean N'Diaye,Opérateur de plateforme,5,2024-01-22
+13,Yassine Lefevre,Ingénieur de production,5,2016-10-12
+14,Yassine N'Diaye,Technicien de maintenance,3,2023-05-07
+15,Claire Cissé,Ingénieur de production,3,2017-12-12
+16,Moussa Lefevre,Opérateur de plateforme,2,2014-12-21
+17,Karim Kadi,Ingénieur de production,6,2019-10-30
+18,Yassine Kadi,Chef de site,6,2013-07-17
+19,Jean Petit,Technicien de maintenance,3,2017-06-24
+20,Claire Cissé,Superviseur de champ,2,2020-04-15

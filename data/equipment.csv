@@ -1,0 +1,41 @@
+equipment_id,field_id,well_id,equipment_type,install_date,status
+1,3,11,Séparateur,2016-12-16,Opérationnel
+2,4,7,Pipeline,2024-03-16,Opérationnel
+3,6,21,Pompe à balancier,2021-06-13,Opérationnel
+4,3,16,Pompe à balancier,2016-10-10,Opérationnel
+5,2,13,Pipeline,2021-12-21,Opérationnel
+6,3,21,Séparateur,2017-05-30,Opérationnel
+7,3,15,Séparateur,2017-06-09,En panne
+8,2,5,Pompe à balancier,2023-05-26,Opérationnel
+9,6,9,Séparateur,2021-04-30,Opérationnel
+10,3,5,Compresseur,2022-03-01,En panne
+11,6,8,Plateforme de forage,2017-11-07,En révision
+12,6,24,Compresseur,2018-12-21,Opérationnel
+13,6,18,Pompe à balancier,2021-12-01,Opérationnel
+14,1,18,Séparateur,2022-10-20,En révision
+15,5,9,Pipeline,2020-09-29,Opérationnel
+16,6,24,Plateforme de forage,2018-05-17,En révision
+17,2,19,Pipeline,2022-01-17,En révision
+18,5,14,Pompe à balancier,2024-03-08,Opérationnel
+19,6,19,Séparateur,2023-09-26,Opérationnel
+20,2,13,Pipeline,2018-04-03,Opérationnel
+21,2,12,Pipeline,2023-12-30,En révision
+22,4,8,Plateforme de forage,2019-06-30,En panne
+23,4,5,Plateforme de forage,2020-06-22,En révision
+24,3,17,Séparateur,2023-07-14,En révision
+25,6,16,Plateforme de forage,2023-04-15,En révision
+26,6,3,Pipeline,2020-03-09,Opérationnel
+27,5,2,Pipeline,2020-11-29,Opérationnel
+28,2,4,Pompe à balancier,2021-10-20,Opérationnel
+29,6,5,Pipeline,2021-01-23,En révision
+30,3,21,Séparateur,2017-05-10,En panne
+31,1,6,Compresseur,2018-10-12,Opérationnel
+32,2,22,Pompe à balancier,2018-07-09,Opérationnel
+33,1,14,Pompe à balancier,2016-09-19,Opérationnel
+34,3,20,Séparateur,2019-10-16,Opérationnel
+35,4,3,Séparateur,2016-03-27,En révision
+36,3,13,Plateforme de forage,2022-08-06,Opérationnel
+37,1,13,Pompe à balancier,2022-03-18,En révision
+38,2,20,Plateforme de forage,2018-07-31,Opérationnel
+39,5,15,Pipeline,2022-08-07,En panne
+40,6,17,Pompe à balancier,2018-06-21,En révision

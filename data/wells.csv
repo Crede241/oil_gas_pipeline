@@ -1,0 +1,25 @@
+well_id,field_id,well_name,drill_date,depth_m,status
+1,6,Puits-001,2021-04-17,2360,Actif
+2,1,Puits-002,2017-03-25,2794,Actif
+3,1,Puits-003,2023-01-11,2630,Fermé
+4,6,Puits-004,2022-04-15,2595,Actif
+5,3,Puits-005,2022-11-12,3138,Actif
+6,2,Puits-006,2021-02-10,3669,En maintenance
+7,2,Puits-007,2019-09-15,1966,Fermé
+8,2,Puits-008,2017-06-21,2738,Actif
+9,6,Puits-009,2020-01-14,1830,En maintenance
+10,1,Puits-010,2021-08-10,2982,Actif
+11,6,Puits-011,2018-02-13,3635,Fermé
+12,6,Puits-012,2015-01-27,4419,Actif
+13,5,Puits-013,2016-10-15,1630,Fermé
+14,1,Puits-014,2022-10-30,3185,Actif
+15,5,Puits-015,2019-09-28,2269,Fermé
+16,4,Puits-016,2018-10-25,3891,Actif
+17,1,Puits-017,2018-02-12,3015,Actif
+18,1,Puits-018,2016-09-28,4353,Actif
+19,1,Puits-019,2017-05-31,3933,Actif
+20,2,Puits-020,2018-10-10,2715,Actif
+21,2,Puits-021,2016-02-23,2455,Actif
+22,5,Puits-022,2016-01-15,3824,Actif
+23,5,Puits-023,2019-04-06,2684,Actif
+24,1,Puits-024,2016-02-01,1959,En maintenance
