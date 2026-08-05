@@ -10,6 +10,7 @@ from pathlib import Path
 import pandas as pd
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
+from urllib.parse import quote_plus
 
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
@@ -33,7 +34,9 @@ LOAD_ORDER = [
 
 
 def get_engine():
-    url = f"postgresql+psycopg2://{PG_USER}:{PG_PASSWORD}@{PG_HOST}:{PG_PORT}/{PG_DB}"
+    user = quote_plus(PG_USER)
+    password = quote_plus(PG_PASSWORD)
+    url = f"postgresql+psycopg2://{user}:{password}@{PG_HOST}:{PG_PORT}/{PG_DB}"
     return create_engine(url)
 
 
