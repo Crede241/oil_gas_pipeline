@@ -21,13 +21,25 @@ st.set_page_config(
 )
 
 # ---------- Connexion PostgreSQL ----------
+# En local : lit le fichier .env
+# Sur Streamlit Cloud : lit st.secrets (configuré dans Advanced settings > Secrets)
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
-PG_HOST = os.getenv("POSTGRES_HOST", "localhost")
-PG_PORT = os.getenv("POSTGRES_PORT", "5432")
-PG_DB = os.getenv("POSTGRES_DB", "dw_oil_gas")
-PG_USER = os.getenv("POSTGRES_USER", "postgres")
-PG_PASSWORD = os.getenv("POSTGRES_PASSWORD", "postgres")
+
+def get_config(key: str, default: str = "") -> str:
+    try:
+        if key in st.secrets:
+            return st.secrets[key]
+    except Exception:
+        pass  # pas de secrets.toml en local, c'est normal
+    return os.getenv(key, default)
+
+
+PG_HOST = get_config("POSTGRES_HOST", "localhost")
+PG_PORT = get_config("POSTGRES_PORT", "5432")
+PG_DB = get_config("POSTGRES_DB", "dw_oil_gas")
+PG_USER = get_config("POSTGRES_USER", "postgres")
+PG_PASSWORD = get_config("POSTGRES_PASSWORD", "postgres")
 
 
 @st.cache_resource
