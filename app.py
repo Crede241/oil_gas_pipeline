@@ -6,6 +6,7 @@ Connexion directe à PostgreSQL (dw_oil_gas)
 
 import os
 from pathlib import Path
+from urllib.parse import quote_plus
 
 import pandas as pd
 import plotly.express as px
@@ -44,7 +45,9 @@ PG_PASSWORD = get_config("POSTGRES_PASSWORD", "postgres")
 
 @st.cache_resource
 def get_engine():
-    url = f"postgresql+psycopg2://{PG_USER}:{PG_PASSWORD}@{PG_HOST}:{PG_PORT}/{PG_DB}"
+    user = quote_plus(PG_USER)
+    password = quote_plus(PG_PASSWORD)
+    url = f"postgresql+psycopg2://{user}:{password}@{PG_HOST}:{PG_PORT}/{PG_DB}"
     return create_engine(url)
 
 
